@@ -16,7 +16,10 @@
     "workflow-orchestration"
   ],
   "license": "UNLICENSED",
-  "dependencies": {},
+  "dependencies": {
+    "@webwaka/organelle-validation-engine": "workspace:*",
+    "@webwaka/organelle-workflow-orchestrator": "workspace:*"
+  },
   "devDependencies": {
     "typescript": "^5.0.0",
     "jest": "^29.0.0",
